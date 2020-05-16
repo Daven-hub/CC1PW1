@@ -1,0 +1,184 @@
+*,
+*::after,
+*:before{
+    box-sizing: border-box
+}
+/*Initialisation du Body*/
+body{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif
+}
+/*Marges Interne*/
+body  .container{ 
+    padding: 60px 45px;
+    overflow-x: hidden;
+}
+/*En tete des pages*/
+body .container .header{
+    display: flex;
+    justify-content: space-between;  /*IL FORCE LE CERCLE A SE PLACER AU COIN*/
+    align-items: center;
+}
+
+/*Ajout du Cercle Violet*/
+
+body .container .header .cercle{
+    width: 52px;
+    height:52px;
+    border-radius: 100%;
+    background-color: rgb(71, 26, 235);
+    border: 5px solid rgb(252,208,154)
+}
+
+/* Application du Style sur la section*/
+
+.container section h1{
+    font-size: 35px;
+    margin-bottom: 60px;
+    font-weight: 700;
+    padding-top: 90px;
+}
+
+.container section .select{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container section .select h3{
+    font-size: 14px;
+}
+
+.container section .select .btn-link{
+    display:flex;
+    justify-content: space-between;
+}
+.container section .select a{
+    color: inherit;
+    text-decoration: none;
+}
+section .select .btn-link .text-button{
+    padding: 15px 20px;
+    font-size:18px;
+    border-radius: 35px;
+    color: white;
+    background-color: rgb(71, 26, 235);
+}
+section .select .btn-link .btn-2{
+    background-color: rgb(235,235,235);
+    color: rgb(0,0,0.226);
+
+}
+.container .cards{
+    display: flex;
+    margin-right: 8px;
+    flex-wrap: nowrap;
+}
+.container .cards .card{
+    width: 170px;
+    height: 290px;
+    margin-right: 8px;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    flex: none;
+    padding: 45px;
+    padding-left: 20px;
+    padding-right:20px ;
+    background-color: rgb(241, 170, 194);
+
+}
+.container .cards .card1{
+    background-color: rgb(71, 26, 235);
+}
+.container .cards .card2{
+    background-color: rgb(214, 79, 79);
+}
+/*Application du Style sur les Bouttons Search*/
+
+.container .search h3{
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+.container .search .search-btn{
+    display: flex;
+    align-items: center;
+}
+.search .search-btn .icon-button{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+
+}
+.search-btn .icon-button div{
+    width: 54px;
+    height: 54px;
+    flex: none;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: rgb(241, 170, 194);
+}
+.search-btn .icon-button div1{
+    width: 54px;
+    height: 54px;
+    flex: none;
+    margin-right: 5px;
+    border-radius: 20px;
+    background-color: rgb(71, 26, 235);
+ }
+
+ /*Code CSS de la seconde pages*/
+
+
+.call-button .icon-button  div{
+    width: 54px;
+    height: 54px;
+    flex: none;
+    margin-right: 6px;
+    border-radius: 22px;
+    background-color: rgb(241, 170, 194);
+  
+ }
+ .call-button .icon-button  div1{
+    width: 54px;
+    height: 54px;
+    flex: none;
+    margin-right: 6px;
+    border-radius: 22px;
+    background-color: rgb(71, 26, 235);
+ }
+ .call-button .icon-button  div2{
+    width: 54px;
+    height: 54px;
+    flex: none;
+    margin-right: 6px;
+    border-radius: 22px;
+    background-color: rgb(214, 79, 79);
+ }
+
+.call-button .icon-button {
+  display: flex;
+}
+.call-button .icon-button h3{
+    padding-bottom: 35px;
+    padding-left: 20px;
+}
+
+.call-button .bord{
+    width: 320px;
+    height: 120px;
+    flex: none;
+    margin-right: 2px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(24, 23, 22);
+ }
+
+
+
+
+
+
+
